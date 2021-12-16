@@ -23,7 +23,7 @@ function atualizar_jogador_atual() {
  }
 
     var vez = document.getElementById("vez_do_jogador");
-    vez.textContent = jogador.value;
+    vez.textContent = jogador;
 }
 
 function comecar_jogo(){

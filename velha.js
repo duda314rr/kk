@@ -17,9 +17,9 @@ function atualizar_jogador_atual() {
 
  if (vez_do_Jogador == jogador1) {
 
-    jogador = document.getElementById('1nome').value;
+    jogador = document.getElementById('1nome').value
  }else{
-    jogador =document.getElementById('2nome').value;
+    jogador =document.getElementById('2nome').value
  }
 
     var vez = document.getElementById("vez_do_jogador");

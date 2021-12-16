@@ -38,12 +38,12 @@ function comecar_jogo(){
    if (this.getElementsByTagName("img").length == 0) {
 
     if (vez_do_Jogador== jogador1) {
-     this.innerHTML = "<img src='jogo-d-velhaa/img/x.jpg'>";
+     this.innerHTML = "<img src='jogo-d-velhaa/x.jpg'>";
      this.setAttribute("jogada", jogador1);
      vez_do_Jogador = jogador2;
     }
     else{
-     this.innerHTML = "<img src='jogo-d-velhaa/img/bola.jpg'>";
+     this.innerHTML = "<img src='jogo-d-velhaa/bola.jpg'>";
      this.setAttribute("jogada", jogador2);
      vez_do_Jogador = jogador1;
     }

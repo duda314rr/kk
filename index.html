@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD - JOGO DA VELHA </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="menu_container">
+        <form id="jogadores">
+            <div id="full-box">
+                <label for="nome">Digite o nome do primeiro jogador</label>
+                <input type="txt" id="1nome" autocomplete="off" placeholder="1jogador"/>
+            </div>
+            <div class="full-box">
+                <label for="nome">Digite o nome do primeiro jogador</label>
+                <input type="txt" id="2nome" autocomplete="off" placeholder="2jogador"/>
+            </div>
+            <div class="full-box">
+                <input type="text" id="segundo_botão" value="COMEÇAR">
+            </div>
+        </form>
+    </div>
+    <div class="conteiner">
+        <div class="vez_do_Jogador">
+            <p>SUA VEZ DE JOGAR:</p>
+            <p id="vez_do_Jogador"></p>
+        </div>
+    <div id="container">
+        <p>Vez do jogador:</p>
+        <img src="">
+    </div>
+
+    <div id="tabuleiro">
+        <div class="linha">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+    </div>
+
+    <div class="linha">
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+    </div>
+
+    <div class="linha">
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+        </div>
+    </div>
+
+    <div id="container">
+        <button id="btnRecomecar" disabled>Recomeçar o Jogo</button>
+    </div>
+ 
+<script type="text/javascript" src="velha.js"></script>
+</body>
+</html>
